@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+body{
+    background: rgb(213, 177, 107);
+}
+
+.todo-container {
+    background: rgb(51, 77, 80);
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.label-wrapper {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-text, .input-edit {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 60px;
+    padding: 5px;
+    border: 2px solid black;
+    margin-top: 13px;
+}
+
+.edit-form {
+    /* background: rgb(106, 157, 162); */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid rgb(106, 157, 162);
+}
+
+.input-edit {
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.text-to-edit {
+    color: #fff;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+.btn-submit {
+    background: black;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: rgb(38, 38, 38);
+}
+
+.tasks-remaining {
+    color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.task-list {
+    /* background: red; */
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.task {
+    /* background: rgb(106, 157, 162); */
+    color: #fff;
+    border: 3px solid rgb(106, 157, 162);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+li {
+    margin: 0 12px;
+    padding: 10px 0;
+
+}
+
+.edit-btn, .delete-btn, .cancel-edit-btn, .save-edit-btn {
+    width: 48%;
+    padding: 7px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background: #fff;
+}
+
+.edit-btn:hover, .cancel-edit-btn:hover {
+    background: #dcd5d5;
+}
+
+.delete-btn, .save-edit-btn {
+    background: rgb(195, 38, 38);
+    color: #fff;
+    border-color: rgb(195, 38, 38);
+}
+
+.delete-btn:hover, .save-edit-btn:hover {
+    background: rgb(224, 73, 73);
+}
+
+.name-edit {
+    color: #e36f6f;
+}
+
+.check {
+    padding-top: 2px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.line {
+    color: gray;
+    text-decoration:line-through
+}
